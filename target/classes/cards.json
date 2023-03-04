@@ -1,0 +1,25 @@
+[ {
+  "id" : "0cc4f2b1-12c0-4c19-bc5d-879dff4828bc",
+  "created_date" : 1677869809395,
+  "updated_date" : 1677869809395,
+  "balance" : 12000,
+  "userId" : "b2e9c819-745b-482e-985b-9bae8cfbf726",
+  "expiryDate" : "08/23",
+  "cardNumber" : "3322"
+}, {
+  "id" : "3751c388-d5f1-4437-90b1-0f4f122c7353",
+  "created_date" : 1677869907742,
+  "updated_date" : 1677869907742,
+  "balance" : 10000,
+  "userId" : "637905ea-47d8-43ce-9ce2-89b25fc6d7bc",
+  "expiryDate" : "02/24",
+  "cardNumber" : "2233"
+}, {
+  "id" : "3751c388-d5f1-4437-90b1-0f4f122c7353",
+  "created_date" : 1677869907742,
+  "updated_date" : 1677869907742,
+  "balance" : 30000,
+  "userId" : "637905ea-47d8-43ce-9ce2-89b25fc6d7bc",
+  "expiryDate" : "02/24",
+  "cardNumber" : "2233"
+} ]

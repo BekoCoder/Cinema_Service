@@ -1,0 +1,25 @@
+[ {
+  "id" : "44fd0279-6fd3-4e98-b01c-a956a50b162d",
+  "created_date" : 1677586974564,
+  "updated_date" : 1677586974564,
+  "name" : "Poyga",
+  "price" : 10000
+}, {
+  "id" : "4f1f5255-d68e-4a7c-bf15-87a00181201e",
+  "created_date" : 1677609221210,
+  "updated_date" : 1677609221210,
+  "name" : "Tezlik",
+  "price" : 20000
+}, {
+  "id" : "0dbe289b-dbfb-444a-813c-1f4ece2f2e3d",
+  "created_date" : 1677906888420,
+  "updated_date" : 1677906888420,
+  "name" : "Sariq devni minib",
+  "price" : 20000
+}, {
+  "id" : "3510def0-85ee-41be-8166-44c2112e64fd",
+  "created_date" : 1677907059319,
+  "updated_date" : 1677907059319,
+  "name" : "Oq uy qulashi",
+  "price" : 210000
+} ]

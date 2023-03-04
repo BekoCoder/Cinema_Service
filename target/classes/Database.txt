@@ -1,0 +1,26 @@
+ create database Cinema;
+  \c cinema;
+
+
+
+   create table movies(
+  cinema(# id bigserial,
+  cinema(# name varchar,
+  cinema(# price int);
+  CREATE TABLE
+
+
+  cinema=# create table card(
+  cinema(# id bigserial,
+  cinema(# card_number int,
+  cinema(# card_balance int,
+  cinema(# expiry_date int);
+   CREATE TABLE
+
+
+   create table users(
+  cinema(# id bigserial,
+  cinema(# name varchar,
+  cinema(# email varchar,
+  cinema(# password int);
+   CREATE TABLE

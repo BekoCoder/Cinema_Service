@@ -1,0 +1,22 @@
+[ {
+  "id" : "637905ea-47d8-43ce-9ce2-89b25fc6d7bc",
+  "created_date" : 1677584356346,
+  "updated_date" : 1677584356346,
+  "name" : "Jonibek",
+  "email" : "jonibek@gmail.com",
+  "password" : "1234"
+}, {
+  "id" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe",
+  "created_date" : 1677586310642,
+  "updated_date" : 1677586310642,
+  "name" : "Bekzod",
+  "email" : "bekzod@gmail.com",
+  "password" : "123"
+}, {
+  "id" : "b2e9c819-745b-482e-985b-9bae8cfbf726",
+  "created_date" : 1677603659403,
+  "updated_date" : 1677603659403,
+  "name" : "Jalol",
+  "email" : "jalol@gmail.com",
+  "password" : "12345"
+} ]
