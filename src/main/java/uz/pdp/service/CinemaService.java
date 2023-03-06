@@ -1,5 +1,6 @@
 package uz.pdp.service;
 
+import uz.pdp.model.Card;
 import uz.pdp.model.Cinema;
 import uz.pdp.repository.BoughtCinemaRepository;
 import uz.pdp.repository.CinemRepository;
@@ -28,10 +29,10 @@ public class CinemaService  implements CinemRepository, BoughtCinemaRepository {
     }
 
 
-    public boolean buyTicket(UUID id){
+    public boolean buyTicket(String  name, UUID userid){
         ArrayList<Cinema> boughtCinema=getBoughtCinema();
         for (Cinema cinema : getCinemaListFile()) {
-           if(cinema.getId().equals(id)){
+           if(cinema.getName().equals(name) ){
                boughtCinema.add(cinema);
                writeBougthCinematoFile(boughtCinema);
                return true;
@@ -40,29 +41,37 @@ public class CinemaService  implements CinemRepository, BoughtCinemaRepository {
         return false;
     }
 
-
-    public UUID gName(String name){
-        for (Cinema cinema: getCinemaListFile()) {
-            if(cinema.getName().equals(name)){
-                return cinema.getId();
-            }
-        }
-        return null;
-    }
-
-
-
-    public void whoBoughtCinema( UUID id){
-        ArrayList<Cinema> boughtCinema=getBoughtCinema();
-         for (Cinema cinema: getBoughtCinema()) {
+    public void myCinemaList(UUID id){
+        for (Cinema cinema: getBoughtCinema()) {
             if(cinema.getId().equals(id)){
-                boughtCinema.add(cinema);
-                writeBougthCinematoFile(boughtCinema);
+                System.out.println(cinema);
             }
         }
-
-
     }
+
+
+//    public UUID gName(String name){
+//        for (Cinema cinema: getCinemaListFile()) {
+//            if(cinema.getName().equals(name)){
+//                return cinema.getId();
+//            }
+//        }
+//        return null;
+//    }
+
+
+
+//    public void whoBoughtCinema( UUID id){
+//        ArrayList<Cinema> boughtCinema=getBoughtCinema();
+//         for (Cinema cinema: getBoughtCinema()) {
+//            if(cinema.getId().equals(id)){
+//                boughtCinema.add(cinema);
+//                writeBougthCinematoFile(boughtCinema);
+//            }
+//        }
+//
+//
+//    }
 
 
 

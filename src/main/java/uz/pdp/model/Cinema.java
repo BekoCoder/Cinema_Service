@@ -14,6 +14,7 @@ import java.util.UUID;
 public class Cinema  extends  BaseModel{
     private String name;
     private int price;
+    private  UUID userId;
 
 
     @Override

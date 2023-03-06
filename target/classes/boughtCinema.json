@@ -1,1 +1,36 @@
-[]
+[ {
+  "id" : "6094814d-af24-4c89-9585-bdeeb93f1311",
+  "created_date" : 1678084866542,
+  "updated_date" : 1678084866542,
+  "name" : "Yo'l",
+  "price" : 12000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+}, {
+  "id" : "f10ef2d9-49c0-4282-9d5a-898378ac659f",
+  "created_date" : 1678084996719,
+  "updated_date" : 1678084996719,
+  "name" : "Poyga",
+  "price" : 20000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+}, {
+  "id" : "0b34ce2f-030d-4984-9d5c-37e18f42f58c",
+  "created_date" : 1678084988039,
+  "updated_date" : 1678084988039,
+  "name" : "Oq uy qulashi",
+  "price" : 10000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+}, {
+  "id" : "6094814d-af24-4c89-9585-bdeeb93f1311",
+  "created_date" : 1678084866542,
+  "updated_date" : 1678084866542,
+  "name" : "Yo'l",
+  "price" : 12000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+}, {
+  "id" : "f10ef2d9-49c0-4282-9d5a-898378ac659f",
+  "created_date" : 1678084996719,
+  "updated_date" : 1678084996719,
+  "name" : "Poyga",
+  "price" : 20000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+} ]

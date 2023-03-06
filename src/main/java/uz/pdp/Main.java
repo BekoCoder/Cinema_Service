@@ -61,15 +61,21 @@ public class Main {
                            stepCode=scannerInt.nextInt();
                            switch (stepCode){
                                case 1->{
-                                   System.out.println("Enter cinema name: ");
+                                   System.out.print("Enter cinema name: ");
                                    String cinemaName=scannerStr.nextLine();
-                                   System.out.println("Enter cinema price: ");
+                                   System.out.print("Enter cinema price: ");
                                    int price=scannerInt.nextInt();
-                                   Cinema cinema=new Cinema(cinemaName, price);
+                                   Cinema cinema=new Cinema(cinemaName, price,login.getId());
                                    System.out.println(cinemaService.addCinema(cinema));
                                }
                                case 2->{
-//                                        cinemaService.whoBoughtCinema();
+                                   for (Cinema cinema: cinemaService.getBoughtCinema()) {
+                                       System.out.println("Cinema name: "+ cinema.getName());
+                                       System.out.println("Cinema price: "+ cinema.getPrice());
+                                       System.out.println("*******************");
+                                   }
+
+
                                }
                            }
                        }
@@ -79,23 +85,23 @@ public class Main {
                          stepCode=2;
                         System.out.println("###### Welcome ######");
                         while (stepCode!=0){
-                            System.out.println("1.Add Card, 2.Fill Card, 3.Cinema List, 4.Buy ticket for cinema, 5.My Card List 0.Exit");
+                            System.out.println("1.Add Card, 2.Fill Card, 3.Cinema List, 4.Buy ticket for cinema, 5.My Card List, 6.My Cinema List 0.Exit");
                             stepCode=scannerInt.nextInt();
                             switch (stepCode){
                                 case 1->{
-                                    System.out.println("Enter cardNumber: ");
+                                    System.out.print("Enter cardNumber: ");
                                     String cardNumber=scannerStr.nextLine();
-                                    System.out.println("Enter Expiry Date: ");
+                                    System.out.print("Enter Expiry Date: ");
                                     String expiryDate=scannerStr.nextLine();
-                                    System.out.println("Enter balance: ");
+                                    System.out.print("Enter balance: ");
                                     int balance=scannerInt.nextInt();
-                                    Card card=new Card(cardNumber, balance, expiryDate,login.getId());
+                                    Card card=new Card(cardNumber, balance, expiryDate, login.getId());
                                     System.out.println(cardService.addCard(card));
                                 }
                                 case 2->{
-                                    System.out.println("Enter cardNumber: ");
+                                    System.out.print("Enter cardNumber: ");
                                     String cardNumber=scannerStr.nextLine();
-                                    System.out.println("Enter balance: ");
+                                    System.out.print("Enter balance: ");
                                     int balance=scannerInt.nextInt();
                                     System.out.println(cardService.fillCard(cardNumber,login.getId(),balance));
                                 }
@@ -104,24 +110,20 @@ public class Main {
 
                                 }
                                 case 4->{
-                                    Card card=new Card();
-                                    Cinema cinema=new Cinema();
-                                    System.out.println(cinemaService.getCinemaListFile());
-                                    System.out.println("Choose cinema: ");
-                                    int choose=scannerInt.nextInt();
-                                    Cinema cinema1=cinemaService.getCinemaListFile().get(choose-1);
-                                    if(cinema.getPrice()>=card.getBalance()){
-                                        System.out.println(cinemaService.buyTicket(cinema.getId()));
-                                    }
-                                    else {
-                                        System.out.println("Not enough money!!!");
-                                    }
 
+                                    System.out.println(cinemaService.getCinemaListFile());
+                                    System.out.print("Enter Cinema name: ");
+                                    String cinemaName=scannerStr.nextLine();
+
+                                    System.out.println(cinemaService.buyTicket(cinemaName, login.getId()));
 
 
                                 }
                                 case 5->{
                                     cardService.myCardList(login.getId());
+                                }
+                                case 6->{
+                                    cinemaService.myCinemaList(login.getId());
                                 }
 
                             }

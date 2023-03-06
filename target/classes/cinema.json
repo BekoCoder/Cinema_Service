@@ -1,25 +1,29 @@
 [ {
-  "id" : "44fd0279-6fd3-4e98-b01c-a956a50b162d",
-  "created_date" : 1677586974564,
-  "updated_date" : 1677586974564,
-  "name" : "Poyga",
-  "price" : 10000
+  "id" : "6094814d-af24-4c89-9585-bdeeb93f1311",
+  "created_date" : 1678084866542,
+  "updated_date" : 1678084866542,
+  "name" : "Yo'l",
+  "price" : 12000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
 }, {
-  "id" : "4f1f5255-d68e-4a7c-bf15-87a00181201e",
-  "created_date" : 1677609221210,
-  "updated_date" : 1677609221210,
-  "name" : "Tezlik",
-  "price" : 20000
-}, {
-  "id" : "0dbe289b-dbfb-444a-813c-1f4ece2f2e3d",
-  "created_date" : 1677906888420,
-  "updated_date" : 1677906888420,
-  "name" : "Sariq devni minib",
-  "price" : 20000
-}, {
-  "id" : "3510def0-85ee-41be-8166-44c2112e64fd",
-  "created_date" : 1677907059319,
-  "updated_date" : 1677907059319,
+  "id" : "0b34ce2f-030d-4984-9d5c-37e18f42f58c",
+  "created_date" : 1678084988039,
+  "updated_date" : 1678084988039,
   "name" : "Oq uy qulashi",
-  "price" : 210000
+  "price" : 10000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+}, {
+  "id" : "f10ef2d9-49c0-4282-9d5a-898378ac659f",
+  "created_date" : 1678084996719,
+  "updated_date" : 1678084996719,
+  "name" : "Poyga",
+  "price" : 20000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
+}, {
+  "id" : "6204ec5a-2bca-4d0c-9872-f83eb4550bda",
+  "created_date" : 1678085004194,
+  "updated_date" : 1678085004194,
+  "name" : "Tezlik",
+  "price" : 15000,
+  "userId" : "f7c12aa7-ec32-4f01-8b8c-b452c19647fe"
 } ]
